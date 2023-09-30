@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wii Hacking Tutorial</title>
+    <style>
+      body {
+        background-color: #402e3f;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        text-align: center;
+        background-color: #6c4f70;
+        padding: 20px 0;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+
+      #HeaderHr {
+        border: 1px solid white;
+        margin: 10px auto;
+        width: 50px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 20px 0;
+      }
+
+      #note {
+        background: #e1ff38;
+        border-radius: 5px;
+        padding: 10px;
+        width: 80%;
+        margin: 20px auto;
+        opacity: 0.7;
+      }
+
+      #noteText {
+        margin: 0;
+        padding: 0;
+        color: black;
+      }
+
+      #pleaseHackMii {
+        color: aqua;
+        text-decoration: none;
+      }
+
+      #letterBombImg,
+      #sdImg {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 5px;
+      }
+
+      #epic {
+        color: aqua;
+        text-decoration: none;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #6c4f70;
+        padding: 10px 0;
+      }
+
+      header {
+        text-align: center;
+        background-image: url("src/images/headerImg.jpeg");
+        background-size: cover;
+        padding: 100px 0;
+      }
+
+      h1 {
+        font-size: 48px;
+        color: #f7d53c;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      a {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Wii Hacking Tutorial</h1>
+      <hr id="HeaderHr" />
+    </header>
+
+    <main>
+      <p>For this guide, we will be using the <b>LetterBomb</b> method.</p>
+
+      <div id="note">
+        <p id="noteText">
+          Note: There are other ways to homebrew your Wii; this guide just
+          doesn't cover them.
+        </p>
+      </div>
+
+      <p id="macAddressLine">
+        Turn on your Wii and go to settings. Once there, go to Internet then
+        Console Information and grab your MAC address. Go to
+        <a id="pleaseHackMii" href="https://please.hackmii.com"
+          >please.hackmii.com</a
+        >. It should look something like this:
+      </p>
+      <p>
+        <img
+          src="src/images/letterbomb.png"
+          alt="Letter Bomb website"
+          id="letterBombImg"
+        />
+      </p>
+      <p>
+        Put your Wii's MAC address into the bubble and make sure your region is
+        set correctly and the HackMi installer is bundled. Cut either wire and
+        wait for the file to download. Plug your SD card into your computer and
+        extract the files to the root of your SD card. Your SD card should look
+        something like this:
+      </p>
+
+      <img src="src/images/sd1.png" alt="SD Card example" id="sdImg" />
+      <p>
+        Take out your sd card and enter it into your Nintendo Wii, Then open
+        your Wii Message Board and open the letter bomb icon. (If you cant see
+        it look a day behind or a day ahead).
+        <br />
+        <br />
+        Press 1 on your Wiimote after waiting 30 seconds on the scam warning
+        screen. Select continue, then install the homebrew channel. After that
+        go back and select BootMii and install it as an IOS (If you can install
+        BootMii as boot2 do that aswell). Press exit and you will enter the
+        Homebrew Channel! Once there press the home button and launch BootMii
+        press the reset button until the gear icon is selected then press power.
+        Press the power button again and wait for the NAND to backup to the SD
+        card. Exit BootMii.
+      </p>
+      <br />
+      <br />
+      <h1>Congrats</h1>
+      <hr />
+      <p>
+        Congrats you have finished homebrewing your Wii move on to
+        <a id="Guide2" href="Options.html">Whats Next?</a>
+      </p>
+    </main>
+    <footer>
+      © 2023 SkyeDoesThings |
+      <a
+        id="epic"
+        href="https://www.youtube.com/channel/UCnYB17QcRHKPUU48IDl7bvQ"
+        >Youtube</a
+      >
+    </footer>
+  </body>
+</html>
