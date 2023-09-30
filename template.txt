@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiimmfi Tutorial</title>
+    <style>
+      body {
+        background-color: #402e3f;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        text-align: center;
+        background-color: #6c4f70;
+        padding: 20px 0;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+
+      Hr {
+        border: 1px solid white;
+        margin: 10px auto;
+        width: 50px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 20px 0;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #6c4f70;
+        padding: 10px 0;
+      }
+
+      header {
+        text-align: center;
+        background-image: url("src/images/headerImg.jpeg");
+        background-size: cover;
+        padding: 100px 0;
+      }
+
+      h1 {
+        font-size: 48px;
+        color: #f7d53c;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      a {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Wii Hacking Tutorial</h1>
+      <hr id="HeaderHr" />
+    </header>
+    <main></main>
+    <footer>
+      © 2023 SkyeDoesThings |
+      <a
+        id="epic"
+        href="https://www.youtube.com/channel/UCnYB17QcRHKPUU48IDl7bvQ"
+        >Youtube</a
+      >
+    </footer>
+  </body>
+</html>
