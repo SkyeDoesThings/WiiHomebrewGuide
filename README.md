@@ -1,2 +1,5 @@
-# WiiHomebrewGuide
-An open source Nintendo Wii (Maybe Wii U in the future) homebrew guide!
+# Wii Homebrew Tutorial
+A simple open source Wii (Maybe Wii U in the future) homebrew guide because I can.
+
+
+## Improvements appreciated 
